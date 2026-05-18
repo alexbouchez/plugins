@@ -1,0 +1,10 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "alexbouchez",
+  "description": "Alex Bouchez — Claude Code plugins persos (ghostwriting LinkedIn + X, gestion devis Dougs).",
+  "owner": {
+    "name": "Alexandre Bouchez",
+    "url": "https://alexandre-bouchez.fr"
+  },
+  "plugins": []
+}
