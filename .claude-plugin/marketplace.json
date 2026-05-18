@@ -6,5 +6,31 @@
     "name": "Alexandre Bouchez",
     "url": "https://alexandre-bouchez.fr"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "linkedin-ghostwriter",
+      "description": "LinkedIn ghostwriter : rédige des posts viraux, génère des lead magnets optimisés, et gère la base de données (~10k posts). Accès privé.",
+      "source": {
+        "source": "github",
+        "repo": "alexbouchez/linkedin-ghostwriter"
+      }
+    },
+    {
+      "name": "x-ghostwriter",
+      "description": "X/Twitter ghostwriter: scrape, classify, and query posts from any account. Accès privé.",
+      "source": {
+        "source": "github",
+        "repo": "alexbouchez/x-ghostwriter"
+      }
+    },
+    {
+      "name": "dougs",
+      "description": "Manage Dougs draft quotes via direct fetch + session cookie. Single /dougs command with internal routing. Brouillon-only.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alexbouchez/dougs",
+        "path": "plugin"
+      }
+    }
+  ]
 }
