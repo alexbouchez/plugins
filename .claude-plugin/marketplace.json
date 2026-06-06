@@ -1,12 +1,20 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "alexbouchez",
-  "description": "Alex Bouchez — Claude Code plugins persos (ghostwriting LinkedIn + X, gestion devis Dougs).",
+  "description": "Alex Bouchez — Claude Code plugins persos (Personal OS solo, ghostwriting LinkedIn + X, gestion devis Dougs).",
   "owner": {
     "name": "Alexandre Bouchez",
     "url": "https://alexandre-bouchez.fr"
   },
   "plugins": [
+    {
+      "name": "driven",
+      "description": "Compagnon Personal OS solo — mémoire timestampée, identité (ME/SOUL/VOICE), routage savoir-vs-mémoire, capture proactive. Ton cerveau augmenté piloté par Claude.",
+      "source": {
+        "source": "github",
+        "repo": "alexbouchez/driven"
+      }
+    },
     {
       "name": "dougs",
       "description": "Manage Dougs draft quotes via direct fetch + session cookie. Single /dougs command with internal routing. Brouillon-only.",
